@@ -1,7 +1,7 @@
 import cv2
 
 # Lee la imagen (asegúrate de que el archivo exista en esa ruta)
-img = cv2.imread("0c235241ecd73e4f94631b9a9d9d1b46.jpg")
+img = cv2.imread("0c235241ecd73e4f94631b9a9d9d1b46.jpg", 0)
 
 # Muestra la imagen en una ventana
 cv2.imshow("Ventana", img)
